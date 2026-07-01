@@ -1,0 +1,63 @@
+canonical_identifier: bkk:krp/KR6q0259/v1
+canonical_location: https://kanripo.org/bkk/KR6q0259/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 青州百問
+  identifiers:
+    alt_id:
+    - X67n1313
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X67/X67n1313.xml
+    old_id: X67n1313
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6q0259_000.yaml, hash: 'sha256:637dccec5eca254568b1191667812e15342e447c454f10ae0bb250f1b6ee8b7d'}
+  - {seq: 1, filename: KR6q0259_001.yaml, hash: 'sha256:6a7faf07680f057f38fe23043c24caa0ec963a3de0099f6375d446dbbf2579b8'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6q0259_000.markers.yaml, hash: 'sha256:687a8440bd28abdb9d05dd727a87cb231362c5c89bcbfe8adafe9565588bcf78'}
+  - {seq: 1, role: markers, filename: assets/KR6q0259_001.markers.yaml, hash: 'sha256:93b107af06a027492d130e1df3139f90e10f533eb0458c3c3fa2087a418ec2c2'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6q0259_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 1313-A 青州百問序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6q0259_X_000-mulu-2
+    span:
+    - front
+    - 316
+    - 316
+  label: 青州百問
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0259_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 6604
+  label: 青州百問
+  type: juan
+  level: 1
+hash: sha256:d9158e2ace2ac5b8a4cdb1e6e2e271284dd0e2a6922debf96b38bcbc98d749e8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
