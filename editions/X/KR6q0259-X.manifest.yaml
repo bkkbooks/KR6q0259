@@ -19,17 +19,17 @@ metadata:
     short: X
 assets:
   parts:
-  - {seq: 0, filename: KR6q0259_000-X.yaml, hash: 'sha256:2b1b59537ef01dcb65fe4d0a654fed58eb6c218d157f05889ddf77585f66e90e'}
+  - {seq: 0, filename: KR6q0259_000-X.yaml, hash: 'sha256:da4d2d11d016cd0ff2d9b88753e3ff6c56bc89ac1a3afd3540e8c3b599f848b0'}
   - {seq: 1, filename: KR6q0259_001-X.yaml, hash: 'sha256:0283d22fecdd4278c1cdbea29d213f032c275fe72da6c2dbd0ce8af9b57c23d5'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6q0259_000-X.markers.yaml, hash: 'sha256:5f581864c1395479a846e9fd06ba09834c9e53893f3b3c01fbe8c3d3d912a76f'}
+  - {seq: 0, role: markers, filename: assets/KR6q0259_000-X.markers.yaml, hash: 'sha256:6e41fc0d11dfa3229b41da2070593cfaf4fb9c458831cb423639127dcdf4e38a'}
   - {seq: 1, role: markers, filename: assets/KR6q0259_001-X.markers.yaml, hash: 'sha256:992e7a3edc6622299e0159838d43a8a0a7325316b8992acb08ff9311c42f44eb'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6q0259_X_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: No. 1313-A 青州百問序
@@ -39,7 +39,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6q0259_X_000-mulu-2
     span:
-    - front
+    - body
     - 316
     - 316
   label: 青州百問
@@ -55,4 +55,4 @@ table_of_contents:
   label: 青州百問
   type: juan
   level: 1
-hash: sha256:fe368f4bc6df8484ce8fd1c97ba8283797a4ae4622886d05fe636108218321d2
+hash: sha256:98a344166d0ba8a6601aed9e9639e52e7d5f3ed87bfc4cc6c3ac12449a9928dc
